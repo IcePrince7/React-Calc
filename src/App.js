@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { ButtonComp } from "./ButtonComp";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="mainBox">
+      <input value={0} />
+      <ButtonComp Value={7} />
+      <ButtonComp Value={8} />
+      <ButtonComp Value={9} />
+      <ButtonComp Value={"*"} backColor="lightgrey" />
+
+      <ButtonComp Value={4} />
+      <ButtonComp Value={5} />
+      <ButtonComp Value={2} />
+      <ButtonComp Value={"-"} backColor="lightgrey" />
+
+      <ButtonComp Value={1} />
+      <ButtonComp Value={2} />
+      <ButtonComp Value={3} />
+      <ButtonComp Value={"+"} backColor="lightgrey" />
+
+      <ButtonComp Value={"+/-"} backColor="lightgrey" />
+      <ButtonComp Value={0} />
+      <ButtonComp Value={"."} backColor="lightgrey" />
+      <ButtonComp Value={"="} backColor="aqua" />
     </div>
   );
 }
