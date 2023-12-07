@@ -1,4 +1,4 @@
 export function ButtonComp(props) {
-    return <button style={{ backgroundColor: props.backColor }}>{props.Value}</button>;
+    return <button onClick={props.onClick} style={{ backgroundColor: props.backColor }} value={props.Value}>{props.Value}</button>;
   }
   

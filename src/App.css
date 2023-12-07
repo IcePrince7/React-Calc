@@ -17,6 +17,7 @@ input {
   font-size: 18px;
   border-radius: 1%;
   border-width: 10px;
+  text-align: right;
   background-color: yellow;
 }
 
@@ -35,4 +36,3 @@ button:hover {
   color: blueviolet;
   cursor: pointer;
 }
-
